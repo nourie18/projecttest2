@@ -1,0 +1,8 @@
+{
+    "work":[
+        {"title":"designer","id":1,"salary":"2000dt"},
+        {"title":"testeur","id":2,"salary":"3000dt"},
+        {"title":"developper","id":3,"salary":"4000dt"}
+    ]
+        
+}

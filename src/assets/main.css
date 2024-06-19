@@ -1,0 +1,21 @@
+@import './base.css';
+
+
+
+a,.green {
+  text-decoration: none;
+  color: rgb(196, 39, 31);
+  transition: 0.4s;
+  padding: 10px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: #1d1d1d;
+    background-color: #ffb42d;
+    border-radius:4px;  }
+}
+body{
+background-color: rgb(228, 228, 228);
+color: #1d1d1d;
+}

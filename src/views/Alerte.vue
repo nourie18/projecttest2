@@ -8,7 +8,7 @@ function showalert(){
 defineProps({
   list:{
     required:true,
-    type:Array,
+    type:String,
   },
 })
 

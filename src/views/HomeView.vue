@@ -15,7 +15,7 @@ const list=ref([{title:"formu",location:"Gremda"},
 </script>
 <template>
   <div class="content">
-  <alerte @showalert="showalert">
+  <alerte :list='list' @showalert="showalert">
     <ul>
       <li v-for="(item,index) in list" :key="index"> {{ item.title }} {{ item.location }}</li>
     </ul>

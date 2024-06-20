@@ -4,13 +4,17 @@ import {ref,onMounted} from 'vue'
 defineProps({
     id:Number
 })
-const work=ref([])
+const work=ref( [
+        {"title":"designer","id":1,"salary":"2000dt"},
+        {"title":"testeur","id":2,"salary":"3000dt"},
+        {"title":"developper","id":3,"salary":"4000dt"}
+    ])
 const number=ref()
+ 
 onMounted(() =>{
-    fetch('http://localhost:3000/work')
-      .then(res=>res.json())
-      .then((data) =>  work.value = data )
+    
 })
+
 </script>
 <template>
     <p>The Job ID is {{ id }}</p>
